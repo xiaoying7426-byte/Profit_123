@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Register</title>
+  <style>
+    /* Simple look */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+
+    h2 {
+      text-align: center;
+      color: #f5c518;
+      margin: 20px 0 10px;
+    }
+
+    .wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 16px;
+    }
+
+    .field {
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: #f0e6c2;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #2a2a2a;
+      background: #141414;
+      color: #eee;
+    }
+
+    input::placeholder {
+      color: #9a9a9a;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: #f5c518;
+      color: #1a1300;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .note {
+      text-align: center;
+      color: #bdbdbd;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 420px) {
+      .wrap { padding: 12px; }
+      .card { padding: 12px; }
+    }
+
+    .back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5c518;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: #e6b800;
+}
+  </style>
+</head>
+<body>
+    <a href="MyPage4.html" class="back-button">Back</a>
+  <section id="register">
+    <div class="wrap">
+      <h2>Register</h2>
+      <div class="card">
+        <form action="#" method="post">
+          <div class="field">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Your name" />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" />
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Create a password" />
+          </div>
+
+          <button type="submit">Create Account</button>
+        </form>
+        <p class="note">Simple and easy to use.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

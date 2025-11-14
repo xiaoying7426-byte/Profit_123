@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #f5c518;
+}
+/* === Showcase Section === */
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.description {
+  display: block; /* Changed from none to block to show the descriptions */
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* Back button styles */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5c518;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: #e6b800;
+}
+
+</style>
+<body>
+    
+<!-- Showcase -->
+   <a href="MyPage.html" class="back-button">Back</a>
+    <section id="My Product">
+        <h2>Showcase</h2>
+        <div class="showcase">
+          <div class="card">
+            <h3>Clock Shop</h3>
+            <img src="Screenshot 2025-11-14 164340.png" alt="">
+            <div class="description">
+              <p>This is a clock shop where you can browse and purchase a variety of clocks, from wall clocks to wristwatches, all in one convenient place.</p>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Job Finder</h3>
+            <img src="Screenshot 2025-11-14 164011.png" alt="">
+            <div class="description">
+              <p>This is a job finder platform designed to help users discover employment opportunities, connect with employers, and advance their careers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

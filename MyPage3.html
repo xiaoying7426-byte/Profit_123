@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #f5c518;
+}
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.price-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.price-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+}
+
+.price-card h3 {
+  color: #f5c518;
+}
+
+.price-card p {
+  font-size: 1.4em;
+  color: #fff;
+}
+/* Back button styles */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5c518;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: #e6b800;
+}
+
+</style>
+
+<body>
+    <!-- Pricing -->
+    <a href="MyPage.html" class="back-button">Back</a>
+    <section id="pricing">
+    <h2>Our Services</h2>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Standard Package</h3>
+        <p>$200</p>
+        <ul>
+          <li>1 Page Website</li>
+          <li>Responsive Design</li>
+          <li>Basic SEO</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3>Luxury Package</h3>
+        <p>$500</p>
+        <ul>
+          <li>Multi-Page Website</li>
+          <li>Custom Animation</li>
+          <li>Brand Design Support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+</body>

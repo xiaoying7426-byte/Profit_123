@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Portfolio</title>
+
+<style>
+/* === Base Style === */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #eee;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #f5c518;
+}
+
+/* === Navigation Bar === */
+nav {
+  background-color: #000000;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(255, 215, 0, 0.1);
+}
+
+nav .logo {
+  color: #f5c518;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f5c518;
+}
+
+/* === Header Section === */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #000, #1b1b1b);
+  border-bottom: 2px solid #f5c518;
+}
+
+header img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #f5c518;
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+
+/* === Footer === */
+footer {
+  background: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 25px 10px;
+  border-top: 2px solid #f5c518;
+}
+
+footer a {
+  color: #f5c518;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card, .price-card, .review {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="logo">Luxury Web Creater</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="MyPage2.html">Showcase</a></li>
+    <li><a href="MyPage3.html">Price</a></li>
+    <li><a href="MyPage4.html">Contact</a></li>
+    <li><a href="MyPage6.html">Reviews</a></li>
+  </ul>
+</nav>
+
+<!-- Header -->
+<header id="home">
+  <h1>Luxury Web Designer & Developer</h1>
+  <p>Mr.Han Htoo Lwin</p>
+  <!-- 🖼️ To change your photo: Replace "your-photo.jpg" below with your own image name -->
+  <img src="h2.jpg" alt="My Photo">
+  <p>
+    I am Han Htoo Lwin, a high-quality website developer with a passion for elegant design and clean code.
+    I specialize in creating modern, responsive, and user-friendly websites that deliver real impact.
+    Every project I build is crafted with precision, creativity, and attention to detail.
+    I believe a great website is not just about visuals — it’s about seamless experience and performance.
+    My development style focuses on luxury, clarity, and functionality combined.
+    I always stay updated with the latest web technologies and design trends.
+    Quality and professionalism are at the heart of everything I create.
+    From personal portfolios to business websites, I ensure every client receives top-tier results.
+    I love transforming ideas into stunning digital experiences that stand out online.
+    As a young developer from Mandalay, I’m dedicated to becoming one of the best premium website creators in my field. 
+  </p>
+</header>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Han Htoo Lwin. All rights reserved.</p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+</footer>
+
+
+</body>
+</html>
